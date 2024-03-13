@@ -2,14 +2,15 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: go-backend-template
-  title: Create a Go Backend application with a CI pipeline
+  title: Go Microservicewith DAPR
   description: Create a starter Go backend application with a CI pipeline
   tags:
     - recommended
     - go
+    - dapr
 spec:
-  owner: janus-authors
-  system: janus-idp
+  owner: avsarba
+  system: test
   type: service
 
   parameters:
@@ -66,7 +67,7 @@ spec:
             - ../../../skeletons/github-actions/
             - ../../../skeletons/tekton/
           enumNames:
-            - GitHub Action
+            - Zeus
             - Tekton
       dependencies:
         ci:
