@@ -2,12 +2,12 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: go-backend-template
-  title: Go Microservicewith DAPR
-  description: Create a starter Go backend application with a CI pipeline
+  title: Go backend service with Zeus Pipeline and DAPR
+  description: Create a starter Go backend service with Zeus Pipeline and DAPR
   tags:
     - recommended
     - go
-    - dapr
+    - DAPR
 spec:
   owner: avsarba
   system: test
