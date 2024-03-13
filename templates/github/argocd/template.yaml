@@ -2,15 +2,15 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: argocd-template
-  title: Add ArgoCD to an existing project
-  description: Add ArgoCD to an existing project
+  title: Add DAPR to an existing project
+  description: Add DAPR to an existing project
   tags:
     - recommended
-    - argocd
+    - DAPR
 spec:
-  owner: janus-authors
-  system: janus-idp
-  type: service
+  owner: Software CoE
+  system: Digital
+  type: sdk
 
   parameters:
     - title: Provide information about the existing component
