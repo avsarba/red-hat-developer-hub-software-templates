@@ -6,7 +6,6 @@ metadata:
   description: Add DAPR to an existing project
   tags:
     - recommended
-    - DAPR
 spec:
   owner: Software CoE
   system: Digital
