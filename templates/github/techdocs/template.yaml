@@ -8,9 +8,9 @@ metadata:
     - documentation
     - techdocs
 spec:
-  owner: janus-authors
-  system: janus-idp
-  type: service
+  owner: Software CoE
+  system: Digital
+  type: techdocs
 
   parameters:
     - title: Provide information about the existing component
