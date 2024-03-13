@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: nodejs-backend-template
   title: Node.js Service with DAPR and a Zeus pipeline
-  description: Create a starter Node.js backend application with a CI pipeline
+  description: Create a starter Node.js backend service with a Zeus Pipeline and DAPR
   tags:
     - recommended
     - nodejs
