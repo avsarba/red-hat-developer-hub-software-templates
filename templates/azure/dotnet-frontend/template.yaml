@@ -3,7 +3,7 @@ kind: Template
 metadata:
   name: dotnet-frontend-template
   title: CWA with Interstellar
-  description: Create a starter single page web application with a CI pipeline
+  description: Create a Starter Single page web application with a CI pipeline
   tags:
     - recommended
     - react
