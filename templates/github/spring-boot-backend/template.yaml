@@ -2,16 +2,16 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: spring-boot-backend-template
-  title: Create a Spring Boot Backend application with a CI pipeline
-  description: Create a starter Spring Boot backend application with a CI pipeline
+  title: Spring Boot Backend application with DAPR and Zeus pipeline
+  description: Create a starter Spring Boot Backend application with DAPR and Zeus pipeline
   tags:
     - recommended
     - spring-boot
     - java
     - maven
 spec:
-  owner: janus-authors
-  system: janus-idp
+  owner: Software CoE
+  system: Digital
   type: service
 
   parameters:
