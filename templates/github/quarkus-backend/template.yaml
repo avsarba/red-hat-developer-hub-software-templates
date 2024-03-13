@@ -8,7 +8,7 @@ metadata:
     - quarkus
     - java
     - maven
-    - DAPR
+    - dapr
 spec:
   owner: Software CoE
   system: Digital
