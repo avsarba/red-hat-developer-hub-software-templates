@@ -2,15 +2,16 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: quarkus-backend-template
-  title: Create a Quarkus Backend application with a CI pipeline
+  title: Create a Quarkus Backend Service with a Zeus pipeline and DAPR
   description: Create a starter Quarkus Backend application with a CI pipeline
   tags:
     - quarkus
     - java
     - maven
+    - DAPR
 spec:
-  owner: janus-authors
-  system: janus-idp
+  owner: Software CoE
+  system: Digital
   type: service
 
   parameters:
