@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: quarkus-backend-template
-  title: Create a Quarkus Backend Service with a Zeus pipeline and DAPR
-  description: Create a starter Quarkus Backend application with a CI pipeline
+  title: Quarkus Backend Service with a Zeus pipeline and DAPR
+  description: Create a starter Quarkus Backend Service with a Zeus pipeline and DAPR
   tags:
     - quarkus
     - java
