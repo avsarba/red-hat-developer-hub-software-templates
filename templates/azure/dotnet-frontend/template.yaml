@@ -1,16 +1,16 @@
-apiVersion: scaffolder.backstage.io/v1beta3
+tapiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: dotnet-frontend-template
-  title: Create a .NET Frontend application in Azure DevOps with a CI pipeline
-  description: Create a starter .NET frontend application with a CI pipeline
+  title: CWA with Interstellar
+  description: Create a starter single page web application with a CI pipeline
   tags:
     - recommended
-    - dotnet
+    - react
 spec:
-  owner: janus-authors
-  system: janus-idp
-  type: service
+  owner: Software CoE
+  system: Digital
+  type: website
 
   parameters:
     - title: Choose a location
