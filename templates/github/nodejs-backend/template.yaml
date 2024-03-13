@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: nodejs-backend-template
-  title: Create a Node.js Backend application with a CI pipeline
+  title: Node.js Service with DAPR and a Zeus pipeline
   description: Create a starter Node.js backend application with a CI pipeline
   tags:
     - recommended
@@ -69,7 +69,7 @@ spec:
             - ../../../skeletons/github-actions/
             - ../../../skeletons/tekton/
           enumNames:
-            - GitHub Action
+            - Zeus
             - Tekton
       dependencies:
         ci:
