@@ -7,9 +7,9 @@ metadata:
   tags:
     - recommended
     - go
-    - DAPR
+    - dapr
 spec:
-  owner: avsarba
+  owner: Software CoE
   system: test
   type: service
 
